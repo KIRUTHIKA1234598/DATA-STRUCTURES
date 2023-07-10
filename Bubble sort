@@ -1,0 +1,12 @@
+def bubble sort (arr):
+   n=len (arr)
+   for i in range (n-1):
+     for j in range (0,n-i-1):
+       if arr[j]>arr[j+1]:
+       swapped=true
+       arr[j],arr[j+1]=arr[j+1],arr[j]
+       if not swapped
+          return
+list1=[5,3,8,6,7,2]
+print("the unsorted list is:",list+1
+print("the sorted list is :",bubble_sort(list))
